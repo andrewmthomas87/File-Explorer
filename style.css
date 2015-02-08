@@ -103,13 +103,13 @@ div#overlay div#progress {
 	right: 12.5%;
 	width: 75%;
 	height: 2em;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.75);
 }
 
 div#overlay div#progress div {
 	width: 0;
 	height: 100%;
-	background-color: rgba(52, 152, 219, 0.5);
+	background-color: rgba(52, 152, 219, 0.75);
 	-webkit-transition: width 0.125s ease;
 	        transition: width 0.125s ease;
 }
