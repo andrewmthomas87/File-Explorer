@@ -73,7 +73,7 @@ function displayDirectory(directory) {
 }
 
 function failure(error) {
-	alert('Error occurred - please restart the app');
+	console.log(error);
 }
 
 document.addEventListener('deviceready', function() {
