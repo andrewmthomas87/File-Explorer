@@ -111,6 +111,6 @@ div#overlay div#progress div {
 	width: 0;
 	height: 100%;
 	background-color: #3498db;
-	-webkit-transition: width 0.125s ease;
-	        transition: width 0.125s ease;
+	-webkit-transition: width 0.5s ease;
+	        transition: width 0.5s ease;
 }
