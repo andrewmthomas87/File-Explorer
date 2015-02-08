@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>File Explorer</title>
+		<link href='style.css' rel='stylesheet' type='text/css'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+	</head>
+
+	<body>
+		<nav>
+			<a id='back'>Back</a>
+			<a id='sync'>Sync</a>
+			<span>Documents</span>
+		</nav>
+		<section>
+			<div id='directories'>
+			</div>
+			<div id='files'>
+			</div>
+		</section>
+		<div id='overlay'>
+			<div id='progress'>
+				<div></div>
+			</div>
+		</div>
+		<script src='phonegap.js'></script>
+		<script type='application/javascript' src='js/fastclick.js'></script>
+		<script>
+			if ('addEventListener' in document) {
+				document.addEventListener('DOMContentLoaded', function() {
+					FastClick.attach(document.body);
+				}, false);
+			}
+		</script>
+		<script src='js/jquery-1.11.2.min.js'></script>
+		<script src='js/home.js'></script>
+	</body>
+
+</html>

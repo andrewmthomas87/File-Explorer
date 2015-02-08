@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+	<widget xmlns='http://www.w3.org/ns/widgets'
+		xmlns:gap='http://phonegap.com/ns/1.0'
+		id='com.andrew.fileexplorer'
+		versionCode='10'
+		version='1.0.0'>
+		<gap:platform name='ios' />
+		<gap:plugin name='org.apache.cordova.file' />
+		<gap:plugin name='org.apache.cordova.file-transfer' />
+		<gap:plugin name='org.chromium.zip' />
+		<gap:plugin name='com.phonegap.plugins.childbrowser' />
+		<icon src='icon.png' />
+		<name>File Explorer</name>
+		<description></description>
+		<author href='andrewthomas.us' email='andrew.developer87@gmail.com'>Andrew Thomas</author>
+		<preference name='DisallowOverscroll' value='true' />
+		<preference name='UIWebViewBounce' value='false' />
+		<preference name='webviewbounce' value='false' />
+		<preference name='fullscreen' value='true' />
+	</widget>
