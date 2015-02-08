@@ -22,5 +22,4 @@
 		<preference name='DisallowOverscroll' value='true' />
 		<preference name='UIWebViewBounce' value='false' />
 		<preference name='webviewbounce' value='false' />
-		<preference name='fullscreen' value='true' />
 	</widget>
